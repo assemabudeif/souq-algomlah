@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="14.451" height="12" viewBox="0 0 14.451 12">
+  <g id="Group_75771" data-name="Group 75771" transform="translate(-331 -182)">
+    <g id="Group_75770" data-name="Group 75770" transform="translate(5.037 0.975)">
+      <path id="Path_3442" data-name="Path 3442" d="M4,21h8.622" transform="translate(327.192 160.861)" fill="none" stroke="#a1a1a1" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.2"/>
+      <path id="Path_3443" data-name="Path 3443" d="M4,21h8.622" transform="translate(327.192 166.025)" fill="none" stroke="#a1a1a1" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.2"/>
+      <path id="Path_3444" data-name="Path 3444" d="M4,21h8.622" transform="translate(327.192 171.309)" fill="none" stroke="#a1a1a1" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.2"/>
+      <g id="Ellipse_23" data-name="Ellipse 23" transform="translate(325.963 181.025)" fill="none" stroke="#a1a1a1" stroke-width="1.2">
+        <circle cx="1" cy="1" r="1" stroke="none"/>
+        <circle cx="1" cy="1" r="0.4" fill="none"/>
+      </g>
+      <g id="Ellipse_24" data-name="Ellipse 24" transform="translate(325.963 186.025)" fill="none" stroke="#a1a1a1" stroke-width="1.2">
+        <circle cx="1" cy="1" r="1" stroke="none"/>
+        <circle cx="1" cy="1" r="0.4" fill="none"/>
+      </g>
+      <g id="Ellipse_25" data-name="Ellipse 25" transform="translate(325.963 191.025)" fill="none" stroke="#a1a1a1" stroke-width="1.2">
+        <circle cx="1" cy="1" r="1" stroke="none"/>
+        <circle cx="1" cy="1" r="0.4" fill="none"/>
+      </g>
+    </g>
+  </g>
+</svg>

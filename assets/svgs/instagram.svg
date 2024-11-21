@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="57" height="57" viewBox="0 0 57 57">
+  <defs>
+    <linearGradient id="linear-gradient" x1="0.836" y1="0.925" x2="0.071" y2="0.207" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#fc1d76"/>
+      <stop offset="1" stop-color="#f77d0f"/>
+    </linearGradient>
+  </defs>
+  <g id="Group_582" data-name="Group 582" transform="translate(-0.176)">
+    <circle id="Ellipse_6" data-name="Ellipse 6" cx="28.5" cy="28.5" r="28.5" transform="translate(0.176 0)" fill="#fb2b67" opacity="0.1"/>
+    <g id="Group_585" data-name="Group 585" transform="translate(19.131 19.438)">
+      <path id="Union_6" data-name="Union 6" d="M6.161,18.236c-.575-.052-1.154-.092-1.727-.158A4.667,4.667,0,0,1,.319,14.508,21.363,21.363,0,0,1,0,12.077V6.161c.052-.575.092-1.152.159-1.725A4.706,4.706,0,0,1,4.041.243C4.736.109,5.454.079,6.161,0h6c.536.052,1.071.1,1.6.156A4.715,4.715,0,0,1,18,4.08c.127.684.16,1.386.235,2.08v6c-.027.32-.065.641-.079.961a4.9,4.9,0,0,1-4.518,4.975c-.545.069-1.1.1-1.645.143ZM4.436,9.093A4.678,4.678,0,1,0,9.1,4.442H9.093A4.653,4.653,0,0,0,4.436,9.093Zm9.537-5.938A1.081,1.081,0,0,0,12.89,4.229a1.094,1.094,0,1,0,2.188.013,1.074,1.074,0,0,0-1.095-1.088Zm-7.9,5.956a3.04,3.04,0,1,1,3.071,3.048H9.121A3.06,3.06,0,0,1,6.077,9.111Z" transform="translate(0)" stroke="rgba(0,0,0,0)" stroke-miterlimit="10" stroke-width="1" fill="url(#linear-gradient)"/>
+    </g>
+  </g>
+</svg>

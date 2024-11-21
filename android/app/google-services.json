@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "487300826044",
+    "project_id": "souq-algomlah-3b772",
+    "storage_bucket": "souq-algomlah-3b772.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:487300826044:android:37e87f63a3a9b96cbce1b9",
+        "android_client_info": {
+          "package_name": "com.souqalgomlah.app"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyASLJzUSnIe1a-nDvvG0eyoSo3xucP0RCc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

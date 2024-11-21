@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="56" height="57" viewBox="0 0 56 57">
+  <defs>
+    <clipPath id="clip-path">
+      <rect id="Rectangle_87" data-name="Rectangle 87" width="20.498" height="15.148" fill="#48b0ff"/>
+    </clipPath>
+  </defs>
+  <g id="Group_579" data-name="Group 579" transform="translate(-0.451)">
+    <ellipse id="Ellipse_6" data-name="Ellipse 6" cx="28" cy="28.5" rx="28" ry="28.5" transform="translate(0.451 0)" fill="#48b0ff" opacity="0.1"/>
+    <g id="Group_583" data-name="Group 583" transform="translate(18.214 20.89)">
+      <g id="Group_583-2" data-name="Group 583" clip-path="url(#clip-path)">
+        <path id="Path_3052" data-name="Path 3052" d="M2.032,9.345l1.6-.124C1.761,8.5.634,7.4.427,5.519l1.67.3C.5,4.344-.016,2.752.987.731A13.22,13.22,0,0,0,9.943,4.713c0-.327,0-.584,0-.841A3.514,3.514,0,0,1,12.34.414a4.554,4.554,0,0,1,4.583.453,1.23,1.23,0,0,0,1.213.2c.575-.2,1.156-.38,1.735-.569l.158.138L18.442,2.412,20.389,2l.11.1L18.637,3.476C18.532,13.667,7.387,17.586,0,13.631c.989-.134,2.032-.222,3.046-.426a7.055,7.055,0,0,0,2.877-1.321c-1.854-.283-3.212-.972-3.891-2.539" transform="translate(0 0)" fill="#48b0ff"/>
+      </g>
+    </g>
+  </g>
+</svg>
