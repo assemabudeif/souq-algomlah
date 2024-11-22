@@ -4,6 +4,7 @@ import 'package:easy_localization/easy_localization.dart';
 // import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import '/core/utilities/app_routes.dart';
+import 'core/constants/app_constance.dart';
 import 'core/services/app_prefs.dart';
 import 'core/services/services_locator.dart';
 import 'core/theme/theme_data/light_them.dart';
@@ -18,14 +19,12 @@ class SouqAlgomlahApp extends StatefulWidget {
 class _SouqAlgomlahAppState extends State<SouqAlgomlahApp> {
   @override
   void initState() {
-    // sl<AppPreferences>().init(context);
+    sl<AppPreferences>().init(context);
     super.initState();
   }
 
   @override
   void didChangeDependencies() {
-    // context.setLocale(Locale(kAppLanguageCode));
-    sl<AppPreferences>().init(context);
     super.didChangeDependencies();
   }
 

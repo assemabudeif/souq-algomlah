@@ -30,12 +30,14 @@ class AppPreferences {
 
   Future<void> init(BuildContext context, {bool fromLogin = false}) async {
     if (getAppLanguageCode() == '') {
-      kAppLanguageCode = getAppLanguageCode() ?? "en";
+      kAppLanguageCode =
+          getAppLanguageCode() ?? context.deviceLocale.languageCode;
       setAppLanguageCode(kAppLanguageCode);
-      context.setLocale(Locale(kAppLanguageCode));
+      // context.setLocale(Locale(kAppLanguageCode));
     } else {
-      kAppLanguageCode = getAppLanguageCode() ?? "en";
-      context.setLocale(Locale(kAppLanguageCode));
+      kAppLanguageCode =
+          getAppLanguageCode() ?? context.deviceLocale.languageCode;
+      // context.setLocale(Locale(kAppLanguageCode));
     }
     if (!fromLogin) {
       kUserId = getUserId();
@@ -43,6 +45,7 @@ class AppPreferences {
     kFirstTime = getFirstTime();
     ApiConstance.token = getToken();
     kUserName = getUserName();
+    EasyLocalization.of(context)!.setLocale(Locale(kAppLanguageCode));
 
     await Future.delayed(const Duration(seconds: 1), () {
       log(kAppLanguageCode, name: 'Language Code');

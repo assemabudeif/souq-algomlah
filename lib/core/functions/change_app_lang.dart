@@ -10,7 +10,9 @@ Future<void> changeAppLang({
   required String langCode,
   required BuildContext context,
 }) async {
-  await context.setLocale(Locale(langCode));
+  // await context.setLocale(Locale(langCode));
   kAppLanguageCode = langCode;
+  EasyLocalization.of(context)!.setLocale(Locale(kAppLanguageCode));
+
   await sl<AppPreferences>().setAppLanguageCode(langCode);
 }
