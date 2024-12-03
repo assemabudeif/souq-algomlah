@@ -50,10 +50,14 @@ class ProductModel extends Equatable {
         desc: kAppLanguageCode == 'ar'
             ? json["desc"] ?? ''
             : json["englishDesc"] ?? '',
-        price: json["price"]?.toDouble(),
+        price: json["price"] is! String
+            ? json["price"]?.toDouble()
+            : double.parse(double.parse(json["price"]).toStringAsFixed(3)),
         isAvailable: json["isAvailable"],
         amount: json["amount"],
-        oldPrice: json["oldPrice"]?.toDouble(),
+        oldPrice: json["oldPrice"] is! String
+            ? json["oldPrice"]?.toDouble()
+            : double.parse(double.parse(json["oldPrice"]).toStringAsFixed(3)),
         createdAt: json["createdAt"] ?? '',
         updatedAt: json["updatedAt"] ?? '',
         v: json["__v"] ?? 0,
