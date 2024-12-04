@@ -227,8 +227,8 @@ class _ProductDetailsViewState extends State<ProductDetailsView> {
                                       children: [
                                         Text(
                                           context.locale == const Locale('ar')
-                                              ? "${_vm.productModel!.product.price} د.ك"
-                                              : "${_vm.productModel!.product.price} K.D",
+                                              ? "${_vm.productModel!.product.price.toStringAsFixed(3)} د.ك"
+                                              : "${_vm.productModel!.product.price.toStringAsFixed(3)} K.D",
                                           style: TextStyle(
                                             fontSize: 20.sp,
                                             fontWeight:
@@ -241,8 +241,8 @@ class _ProductDetailsViewState extends State<ProductDetailsView> {
                                             _vm.productModel!.product.price)
                                           Text(
                                             context.locale == const Locale('ar')
-                                                ? "${_vm.productModel!.product.oldPrice} د.ك"
-                                                : "${_vm.productModel!.product.oldPrice} K.D",
+                                                ? "${_vm.productModel!.product.oldPrice.toStringAsFixed(3)} د.ك"
+                                                : "${_vm.productModel!.product.oldPrice.toStringAsFixed(3)} K.D",
                                             style: TextStyle(
                                               fontSize: 20.sp,
                                               fontWeight:

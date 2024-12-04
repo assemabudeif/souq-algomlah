@@ -247,8 +247,8 @@ class _HomeProductItemWidgetState extends State<HomeProductItemWidget> {
               children: [
                 Text(
                   context.locale == const Locale('ar')
-                      ? "${widget.product.price} د.ك"
-                      : "${widget.product.price} K.D",
+                      ? "${widget.product.price.toStringAsFixed(3)} د.ك"
+                      : "${widget.product.price.toStringAsFixed(3)} K.D",
                   style: TextStyle(
                     fontSize: 15.sp,
                     color: AppColors.blackColor,
@@ -259,8 +259,8 @@ class _HomeProductItemWidgetState extends State<HomeProductItemWidget> {
                 if (widget.product.oldPrice > widget.product.price)
                   Text(
                     context.locale == const Locale('ar')
-                        ? "${widget.product.oldPrice} د.ك"
-                        : "${widget.product.oldPrice} K.D",
+                        ? "${widget.product.oldPrice.toStringAsFixed(3)} د.ك"
+                        : "${widget.product.oldPrice.toStringAsFixed(3)} K.D",
                     style: TextStyle(
                       fontSize: 15.sp,
                       color: AppColors.primary,

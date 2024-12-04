@@ -628,7 +628,7 @@ class _CartViewState extends State<CartView> {
                                       ),
                                     ),
                                     Text(
-                                      "${sl<CartService>().getCartTotalPrice()} ${context.locale == const Locale('en') ? 'K.D' : 'د.ك'}",
+                                      "${sl<CartService>().getCartTotalPrice().toStringAsFixed(3)} ${context.locale == const Locale('en') ? 'K.D' : 'د.ك'}",
                                       style: TextStyle(
                                         fontSize: 16.sp,
                                       ),
@@ -647,7 +647,7 @@ class _CartViewState extends State<CartView> {
                                       ),
                                     ),
                                     Text(
-                                      "${_vm.selectedCity?.shippingCost ?? 0} ${context.locale == const Locale('en') ? 'K.D' : 'د.ك'}",
+                                      "${_vm.selectedCity?.shippingCost.toStringAsFixed(3) ?? "0.000"} ${context.locale == const Locale('en') ? 'K.D' : 'د.ك'}",
                                       style: TextStyle(
                                         fontSize: 16.sp,
                                       ),
@@ -839,10 +839,10 @@ class _CartViewState extends State<CartView> {
                         crossAxisAlignment: CrossAxisAlignment.start,
                         children: [
                           Text(
-                            "${LocaleKeys.cart_price.tr()}: ${data[index].product.price.toString()}",
+                            "${LocaleKeys.cart_price.tr()}: ${data[index].product.price.toStringAsFixed(3)}",
                           ),
                           Text(
-                            "${LocaleKeys.cart_total_product_price.tr()}: ${(data[index].product.price * data[index].quantity).toStringAsFixed(2)}",
+                            "${LocaleKeys.cart_total_product_price.tr()}: ${(data[index].product.price * data[index].quantity).toStringAsFixed(3)}",
                             style: const TextStyle(
                               color: AppColors.primary,
                             ),
